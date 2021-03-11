@@ -22,8 +22,9 @@ const Axios = () => {
         <div>
             <ul>
            {photos.map(photo => (
-               <li key={photo.key}>{photo.title},{photo.url},{" "}
-               <img src={photo.url} alt={photo.title} height={100} />
+               <li key={photo.key}>
+                   <img src={photo.url} alt={photo.title} height={100} />
+                   {" "}  {photo.title},{photo.url},
                </li>
            ))}
             </ul>
