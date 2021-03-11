@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SiderDemo from './Component/Navbar';
+import HomePage from './Component/HomePage';
 
 
-ReactDOM.render(<SiderDemo />, document.getElementById('root'));
+
+ReactDOM.render(<HomePage />, document.getElementById('root'));
